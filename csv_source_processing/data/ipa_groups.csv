@@ -1,0 +1,176 @@
+1,1,g_<cluster_prefix>_d_external_<имя источника>_ro,r_<cluster_prefix>_external_<имя источника>_ro,1,1
+2,2,g_<cluster_prefix>_d_external_rw,r_<cluster_prefix>_external_rw,1,2
+3,1,g_<cluster_prefix>_d_xstream3ls_ro,r_<cluster_prefix>_xstream3ls_ro,1,3
+4,1,g_<cluster_prefix>_d_internal_<имя реплики>_<схема>_ro,r_<cluster_prefix>_internal_<имя реплики>_<схема>_ro,2,4
+5,2,g_<cluster_prefix>_d_internal_rw,r_<cluster_prefix>_internal_rw,2,5
+6,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,2,6
+7,2,g_<cluster_prefix>_d_pkd_ro,r_<cluster_prefix>_pkd_ro,2,6
+8,1,g_<cluster_prefix>_d_dwh_<имя витрины>_ro,r_<cluster_prefix>_dwh_<имя витрины>_ro,3,7
+9,2,g_<cluster_prefix>_d_dwh_rw,r_<cluster_prefix>_dwh_rw,3,8
+10,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,3,9
+11,1,g_<cluster_prefix>_d_ods_<имя источника>_ro,r_<cluster_prefix>_ods_<имя источника>_ro,4,10
+12,2,g_<cluster_prefix>_d_ods_rw,r_<cluster_prefix>_ods_rw,4,11
+13,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,4,12
+14,2,g_<cluster_prefix>_d_pkd_ro,r_<cluster_prefix>_pkd_ro,4,12
+15,1,g_<cluster_prefix>_d_dzo_<имя источника>_ro,r_<cluster_prefix>_dzo_<имя источника>_ro,5,13
+16,2,g_<cluster_prefix>_d_dzo_rw,r_<cluster_prefix>_dzo_rw,5,14
+17,1,g_<cluster_prefix>_d_xstream3ls_ro,r_<cluster_prefix>_xstream3ls_ro,5,15
+18,2,g_<cluster_prefix>_d_pkd_ro,r_<cluster_prefix>_pkd_ro,5,15
+19,1,g_<cluster_prefix>_d_platform_<имя реплики>_dda_ro,r_<cluster_prefix>_platform_<имя реплики>_dda_ro,6,16
+20,2,g_<cluster_prefix>_d_platform_rw,r_<cluster_prefix>_platform_rw,6,17
+21,1,g_<cluster_prefix>_d_platform_3ls_ro,r_<cluster_prefix>_platform_3ls_ro,6,18
+22,1,g_<cluster_prefix>_d_did_<имя источника>_ro,r_<cluster_prefix>_did_<имя источника>_ro,7,19
+23,2,g_<cluster_prefix>_d_did_rw,r_<cluster_prefix>_did_rw,7,20
+24,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,7,21
+25,1,g_<cluster_prefix>_d_sql_<область>_ro,r_<cluster_prefix>_sql_<область>_ro,8,22
+26,2,g_<cluster_prefix>_d_sql_rw,r_<cluster_prefix>_sql_rw,8,23
+27,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,8,24
+28,1,g_<cluster_prefix>_d_internal_<имя реплики>_<схема>_ro,r_<cluster_prefix>_internal_<имя реплики>_<схема>_ro,9,25
+29,2,g_<cluster_prefix>_d_internal_qa_rw,r_<cluster_prefix>_internal_qa_rw,9,25
+30,2,g_<cluster_prefix>_d_qa_rw,r_<cluster_prefix>_qa_rw,9,27
+33,1,g_<cluster_prefix>_a_kibana,,11,null
+34,1,g_<cluster_prefix>_d_ess_bdm_<блок>_<имя витрины>_ro,r_<cluster_prefix>_ess_bdm_<блок>_<имя витрины>_ro,12,30
+35,2,g_<cluster_prefix>_d_ess_bdm_<блок>_rw,r_<cluster_prefix>_ess_bdm_<блок>_rw,12,31
+36,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,12,32
+37,1,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_<область_optional>_ro,r_<cluster_prefix>_custom_<блок>_<имя витрины>_<область_optional>_ro,13,33
+38,2,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_rw,r_<cluster_prefix>_custom_<блок>_<имя витрины>_rw,13,34
+39,1,g_<cluster_prefix>_d_3ls_custom_<блок>_<имя витрины>_ro,r_<cluster_prefix>_3ls_custom_<блок>_<имя витрины>_ro,13,35
+40,1,g_<cluster_prefix>_d_common_graph_<имя_optional>_ro,r_<cluster_prefix>_common_graph_<имя_optional>_ro,14,36
+41,2,g_<cluster_prefix>_d_common_graph_rw,r_<cluster_prefix>_common_graph_rw,14,36
+42,2,g_<cluster_prefix>_d_sdsdh_<блок>_<отдел>_rw,r_<cluster_prefix>_sdsdh_<блок>_<отдел>_rw,15,37
+43,2,g_<cluster_prefix>_d_sdsdh_t_app_rw,r_<cluster_prefix>_sdsdh_t_app_rw,15,38
+44,2,g_<cluster_prefix>_a_sdsdh_user_role_aud,,16,null
+45,2,g_<cluster_prefix>_a_sdsdh_user_role_ds,,16,null
+48,1,g_<cluster_prefix>_d_team_<блок>_<имя команды>_ro,r_<cluster_prefix>_team_<блок>_<имя команды>_ro,18,39
+49,2,g_<cluster_prefix>_d_team_<блок>_<имя команды>_rw,r_<cluster_prefix>_team_<блок>_<имя команды>_rw,18,39
+52,1,g_<cluster_prefix>_d_eskkd_infa_ro,r_<cluster_prefix>_eskkd_infa_ro,20,41
+53,2,g_<cluster_prefix>_d_eskkd_infa_rw,r_<cluster_prefix>_eskkd_infa_rw,20,41
+54,1,g_<cluster_prefix>_d_rta_<реплика/витрина>_ro,r_<cluster_prefix>_rta_<реплика/витрина>_ro,21,42
+55,2,g_<cluster_prefix>_d_rta_<реплика/витрина>_rw,r_<cluster_prefix>_rta_<реплика/витрина>_rw,21,42
+56,2,g_<cluster_prefix>_a_rta_<приложение>,,22,null
+57,1,g_<cluster_prefix>_d_app_<имя фреймворка>_<область_optional>_ro,r_<cluster_prefix>_app_<имя фреймворка>_<область_optional>_ro,23,43
+58,2,g_<cluster_prefix>_d_app_<имя фреймворка>_<область_optional>_rw,r_<cluster_prefix>_app_<имя фреймворка>_<область_optional>_rw,23,43
+59,1,g_<cluster_prefix>_d_nrt_<имя источника_optional>_ro,r_<cluster_prefix>_nrt_<имя источника_optional>_ro,24,44
+60,2,g_<cluster_prefix>_d_nrt_<имя источника_optional>_rw,r_<cluster_prefix>_nrt_<имя источника_optional>_rw,24,44
+63,2,g_<cluster_prefix>_a_<имя приложения>_<имя роли в приложении>,,26,null
+64,1,g_<cluster_prefix>_s_<имя источника>_ro,r_<cluster_prefix>_<имя источника>_ro,27,46
+65,2,g_<cluster_prefix>_s_<имя источника>_rw,r_<cluster_prefix>_<имя источника>_rw,27,46
+66,3,g_<cluster_prefix>_s_<имя источника>_rwa,r_<cluster_prefix>_<имя источника>_rwa,27,46
+67,1,g_<cluster_prefix>_s_<имя команды>_<наименование>_ro,r_<cluster_prefix>_<имя команды>_<наименование>_ro,27,47
+68,2,g_<cluster_prefix>_s_<имя команды>_<наименование>_rw,r_<cluster_prefix>_<имя команды>_<наименование>_rw,27,47
+69,3,g_<cluster_prefix>_s_<имя команды>_<наименование>_rwa,r_<cluster_prefix>_<имя команды>_<наименование>_rwa,27,47
+70,1,g_<cluster_prefix>_h_<наименование объекта доступа>_ro,,28,48
+71,2,g_<cluster_prefix>_h_<наименование объекта доступа>_rw,,28,48
+72,4,g_<cluster_prefix>_h_<наименование объекта доступа>_rwxca,,28,48
+73,1,g_<cluster_prefix>_a_jn_<cluster_prefix>_internal_ro,,29,null
+74,5,g_<cluster_prefix>_a_jn_<cluster_prefix>_internal_rwx,,29,null
+75,6,g_<cluster_prefix>_a_jn_<cluster_prefix>_internal_rx,,29,null
+76,1,g_<cluster_prefix>_a_grf_<cluster_prefix>_internal_ro,,30,null
+77,2,g_<cluster_prefix>_a_grf_<cluster_prefix>_internal_rw,,30,null
+78,2,g_<cluster_prefix>_d_sds_<блок>_<отдел>_rw,r_<cluster_prefix>_sds_<блок>_<отдел>_rw,31,49
+79,2,g_<cluster_prefix>_d_sds_t_app_rw,r_<cluster_prefix>_sds_t_app_rw,31,50
+80,2,g_<cluster_prefix>_a_sds_user_role_aud,,32,null
+81,2,g_<cluster_prefix>_a_sds_user_role_ds,,32,null
+82,1,g_<cluster_prefix>_d_graph_<имя>_ro,r_<cluster_prefix>_graph_<имя>_ro,33,51
+83,2,g_<cluster_prefix>_d_graph_rw,r_<cluster_prefix>_graph_rw,33,51
+86,1,g_<cluster_prefix>_d_qg_<КТС>_<область данных>_<схема>_ro,r_<cluster_prefix>_qg_<КТС>_<область данных>_<схема>_ro,35,53
+87,2,g_<cluster_prefix>_d_qg_<КТС>_<область данных>_<схема>_rw,r_<cluster_prefix>_qg_<КТС>_<область данных>_<схема>_rw,35,53
+88,1,g_<cluster_prefix>_d_opt_internal_<имя реплики>_<схема>_ro,r_<cluster_prefix>_opt_internal_<имя реплики>_<схема>_ro,36,54
+89,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,36,54
+90,2,g_<cluster_prefix>_d_opt_internal_rw,r_<cluster_prefix>_opt_internal_rw,36,55
+91,2,g_<cluster_prefix>_d_opt_internal_rw,r_<cluster_prefix>_opt_internal_rw,36,56
+92,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,36,56
+93,2,g_<cluster_prefix>_d_opt_internal_rw,r_<cluster_prefix>_opt_internal_rw,36,57
+94,1,g_<cluster_prefix>_d_3ls_ro,r_<cluster_prefix>_3ls_ro,36,57
+95,1,g_<cluster_prefix>_a_grnplm_common,,37,null
+96,2,g_<cluster_prefix>_d_selfservice_an_<реплика>_rw,r_<cluster_prefix>_selfservice_an_<реплика>_rw,38,58
+99,1,g_<cluster_prefix>_d_xstream4ls_ro,r_<cluster_prefix>_xstream4ls_ro,38,61
+100,2,g_<cluster_prefix>_d_selfservice_an_rw,r_<cluster_prefix>_selfservice_an_rw,38,62
+101,2,g_<cluster_prefix>_d_selfservice_devops_rw,r_<cluster_prefix>_selfservice_devops_rw,38,63
+102,1,g_<cluster_prefix>_d_selfservice_<реплика>_ro,r_<cluster_prefix>_selfservice_<реплика>_ro,38,64
+103,2,g_<cluster_prefix>_d_anselfservice_<реплика>_rw,r_<cluster_prefix>_anselfservice_<реплика>_rw,39,65
+104,1,g_<cluster_prefix>_d_anselfservice_<реплика>_ro,r_<cluster_prefix>_anselfservice_<реплика>_ro,39,65
+105,1,g_<cluster_prefix>_d_anselfservice3ls_<реплика>_ro,r_<cluster_prefix>_anselfservice3ls_<реплика>_ro,39,65
+106,1,g_<cluster_prefix>_d_xstream4ls_ro,r_<cluster_prefix>_xstream4ls_ro,39,65
+107,2,g_<cluster_prefix>_a_sdsa_admin,,40,null
+108,2,g_<cluster_prefix>_a_sdsa_views_metadata_admin,,40,null
+109,2,g_<cluster_prefix>_a_sdsa_views_metadata_analyst,,40,null
+110,2,g_<cluster_prefix>_a_sdsa_replicas_metadata_admin,,40,null
+111,2,g_<cluster_prefix>_a_sdsa_replicas_metadata_analyst,,40,null
+112,2,g_<cluster_prefix>_a_sdsa_ds,,40,null
+113,2,g_<cluster_prefix>_a_sdsa_pkd_discrepancies_admin,,40,null
+114,2,g_<cluster_prefix>_a_sdsa_incident_manager,,40,null
+115,2,g_<cluster_prefix>_a_sdsa_views_tla_manager,,40,null
+116,2,g_<cluster_prefix>_a_sdsa_replicas_tla_manager,,40,null
+117,2,g_<cluster_prefix>_a_sdsa_tla_supervisor,,40,null
+118,2,g_<cluster_prefix>_a_sdsa_reports_analyst,,40,null
+119,2,g_<cluster_prefix>_a_sdsa_cm_analyst,,40,null
+120,2,g_<cluster_prefix>_a_sdsa_cm_admin,,40,null
+121,2,g_<cluster_prefix>_a_sdsa_cm_api_user,,40,null
+122,1,g_<cluster_prefix>_a_bme_appusr,,17,null
+123,1,g_<cluster_prefix>_a_bme_r_exec,,17,null
+124,1,g_<cluster_prefix>_a_bme_r_adm,,17,null
+125,1,g_<cluster_prefix>_a_bme_r_info,,17,null
+126,1,g_<cluster_prefix>_a_bme_r_upload,,17,null
+127,1,g_<cluster_prefix>_a_bme_r_download,,17,null
+128,1,g_<cluster_prefix>_a_bme_r_publisher,,17,null
+129,1,g_<cluster_prefix>_a_bme_r_subscriber,,17,null
+130,1,g_<cluster_prefix>_a_bme_r_monadmin,,17,null
+131,2,g_<cluster_prefix>_a_sdsa_analytics_manager,,40,null
+132,2,g_<cluster_prefix>_a_sdsa_incident_analyst,,40,null
+133,2,g_<cluster_prefix>_a_sdsa_zno_analyst,,40,null
+134,2,g_<cluster_prefix>_a_sdsa_zno_manager,,40,null
+135,2,g_msgsrv_a_msservice_consumer,,41,null
+136,1,g_msgsrv_a_msservice_producer,,41,null
+137,1,g_<cluster_prefix>_d_spm_<реплика>_ro,r_<cluster_prefix>_spm_<реплика>_ro,42,66
+138,2,g_<cluster_prefix>_d_spm_<реплика>_rw,r_<cluster_prefix>_spm_<реплика>_rw,42,67
+139,1,g_<cluster_prefix>_d_spm_3ls_ro,r_<cluster_prefix>_spm_3ls_ro,42,68
+140,2,g_<cluster_prefix>_d_spm_rw,r_<cluster_prefix>_spm_rw,42,69
+141,2,g_<cluster_prefix>_d_spm_rw,r_<cluster_prefix>_spm_rw,42,70
+142,1,g_<cluster_prefix>_a_amis_avdata,,43,null
+143,1,g_<cluster_prefix>_d_spm_3ls_ro,r_<cluster_prefix>_spm_3ls_ro,42,70
+144,1,g_<cluster_prefix>_d_selfservice3ls_<реплика>_ro,r_<cluster_prefix>_selfservice3ls_<реплика>_ro,38,71
+145,2,g_<cluster_prefix>_d_selfservice_rw,r_<cluster_prefix>_selfservice_rw,38,72
+146,1,g_<cluster_prefix>_d_usl_tech_<краткий код data-продукта>_ro,r_<cluster_prefix>_usl_tech_<краткий код data-продукта>_ro,34,73
+147,1,g_<cluster_prefix>_d_usl_pers_<краткий код data-продукта>_ro,r_<cluster_prefix>_usl_pers_<краткий код data-продукта>_ro,34,74
+148,1,g_<cluster_prefix>_d_usl_ldm_ro,r_<cluster_prefix>_usl_ldm_ro,34,75
+149,2,g_<cluster_prefix>_d_usl_<краткий код data-продукта>_rw,r_<cluster_prefix>_usl_<краткий код data-продукта>_rw,34,76
+150,2,g_<cluster_prefix>_d_usl_ldm_rw,r_<cluster_prefix>_usl_ldm_rw,34,77
+151,1,g_<cluster_prefix>_d_3ls_usl_ro,r_<cluster_prefix>_3ls_usl_ro,34,78
+152,1,g_<cluster_prefix>_d_3ls_usl_ro,r_<cluster_prefix>_3ls_usl_ro,34,79
+153,1,g_<cluster_prefix>_d_pkd_ro,r_<cluster_prefix>_pkd_ro,34,80
+154,1,g_<cluster_prefix>_d_selfservice_pkd_ro,r_<cluster_prefix>_selfservice_pkd_ro,38,81
+155,2,g_<cluster_prefix>_a_sdsa_sdpm_head,,40,null
+156,2,g_<cluster_prefix>_a_sdsa_sdpm_head_ahd,,40,null
+157,2,g_<cluster_prefix>_a_sdsa_sdpm_head_od,,40,null
+158,2,g_<cluster_prefix>_a_sdsa_sdpm_head_ld,,40,null
+159,2,g_<cluster_prefix>_a_sdsa_sdpm_manager,,40,null
+160,1,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_<область_optional>_tfsout_ro,r_<cluster_prefix>_custom_<блок>_<имя витрины>_<область_optional>_tfsout_ro,13,82
+161,1,g_<cluster_prefix>_a_dda_users,,44,null
+162,1,g_<cluster_prefix>_a_fw_admin,,45,null
+163,1,g_<cluster_prefix>_a_fw_clusterman,,45,null
+164,1,g_<cluster_prefix>_a_fw_hostman,,45,null
+165,1,g_<cluster_prefix>_a_espd_appuser,,46,null
+166,1,g_<cluster_prefix>_a_dda_subscr,,44,null
+167,1,g_<cluster_prefix>_d_qgtmp_buffer_client_rw,r_<cluster_prefix>_qgtmp_buffer_client_rw,47,83
+168,2,g_<cluster_prefix>_d_qgtmp_buffer_rw,r_<cluster_prefix>_qgtmp_buffer_rw,47,83
+169,1,g_<cluster_prefix>_d_3ls_qgtmp_buffer_ro,r_<cluster_prefix>_3ls_qgtmp_buffer_ro,47,83
+170,1,g_<cluster_prefix>_a_corr_r_reader,,48,null
+171,1,g_<cluster_prefix>_a_corr_r_exec,,48,null
+172,1,g_<cluster_prefix>_a_corr_audit,,48,null
+173,1,g_<cluster_prefix>_a_corr_fin_fso,,48,null
+174,1,g_<cluster_prefix>_a_corr_risk_erm,,48,null
+175,1,g_<cluster_prefix>_a_corr_cib_mntz,,48,null
+176,1,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_owner_ro,r_<cluster_prefix>_custom_<блок>_<имя витрины>_owner_ro,13,84
+177,1,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_<область_optional>_tscorr_ro,r_<cluster_prefix>_custom_<блок>_<имя витрины>_<область_optional>_tscorr_ro,13,85
+178,2,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_<область_optional>_tscorr_rw,r_<cluster_prefix>_custom_<блок>_<имя витрины>_<область_optional>_tscorr_rw,13,84
+179,1,g_<cluster_prefix>_a_sdsa_tum_manager,,40,null
+180,1,g_<cluster_prefix>_a_sdsa_tum_user_creator,,40,null
+181,1,g_<cluster_prefix>_a_sdsa_om_admin,,40,null
+182,1,g_<cluster_prefix>_a_sdsa_om_as_admin,,40,null
+183,1,g_<cluster_prefix>_d_selfservice_owner_to_cedar_ro,r_<cluster_prefix>_selfservice_owner_to_cedar_ro,38,86
+184,2,g_<cluster_prefix>_d_selfservice_pkd_rw,r_<cluster_prefix>_selfservice_pkd_rw,38,87
+185,1,g_<cluster_prefix>_d_platform_<имя реплики>_r1_ro,r_<cluster_prefix>_platform_<имя реплики>_r1_ro,6,88
+186,1,g_<cluster_prefix>_d_platform_<имя реплики>_r2_ro,r_<cluster_prefix>_platform_<имя реплики>_r2_ro,6,89
+187,1,g_<cluster_prefix>_d_platform_<имя реплики>_r3_ro,r_<cluster_prefix>_platform_<имя реплики>_r3_ro,6,90
+188,2,g_<cluster_prefix>_d_custom_<блок>_<имя витрины>_<область_optional>_eskkd_rw,r_<cluster_prefix>_custom_<блок>_<имя витрины>_<область_optional>_eskkd_rw,13,91

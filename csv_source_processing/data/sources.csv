@@ -1,0 +1,45 @@
+1,1,ФП Внешние Данные,external,u_<cluster_prefix>_s_external
+2,1,ФП Архивы АС,internal,u_<cluster_prefix>_s_internal
+3,1,ФП Данные витрин АХД,dwh,u_<cluster_prefix>_s_dwh_<имя витрины>
+4,1,ФП Данные ODS,ods,u_<cluster_prefix>_s_ods_<имя источника>
+5,1,ФП Архивы ДЗО,dzo,u_<cluster_prefix>_s_dzo_<имя источника>
+6,1,Архив ППРБ,platform,u_<cluster_prefix>_s_platform
+7,1,ФП Детальные интегрированные данные,did,u_<cluster_prefix>_s_did_<имя источника>
+8,1,ФП SQL Доступ к данным,sql,u_<cluster_prefix>_s_sql_<область>
+9,1,ФП Проверка КД,qa,u_<cluster_prefix>_s_internal_dataqa
+11,2,ФП Журналирование,kibana,
+12,1,ФП Базовые витрины,ess_bdm,u_<cluster_prefix>_s_ess_bdm_<блок>_<имя витрины>
+13,1,ФП Спец витрины,custom,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>
+14,1,Графовая Платформа (переходный период),common_graph,u_<cluster_prefix>_s_common
+15,1,ФП Developer Helper (переходный период),sdsdh,u_<cluster_prefix>_s_sdsdh
+16,2,ФП Developer Helper (переходный период),sdsdh,
+17,2,ФП Пакетное Исполнение Моделей,bme,
+18,1,ФП Пользовательские витрины,team,
+20,1,ЕСККД,eskkd,
+21,1,Доступ к данным в реальном времени (реплика/витрина),rta,
+22,2,Доступ к данным в реальном времени (приложение),rta,
+23,1,Фреймворк,app,
+24,1,Near Real Time,nrt,
+26,2,Приложение,,
+27,4,Solr,solr,
+28,3,Hbase,hbase,
+29,2,Jenkins,jn,
+30,2,Grafana,grf,
+31,1,ФП Developer Helper (целевой вариант),sds,u_<cluster_prefix>_s_sds
+32,2,ФП Developer Helper (целевой вариант),sds,
+33,1,Графовая Платформа (целевой вариант),graph,u_<cluster_prefix>_s_graph
+34,1,Данные ЕСС,usl,u_<cluster_prefix>_s_usl_t_ndl
+35,1,ФП Гетерогенный доступ. QueryGrid,qg,
+36,1,ФП Оптимизированные данные реплик,opt,u_<cluster_prefix>_s_opt_t_internal
+37,2,ТС КАП СУБД Greenplum,grnplm,
+38,1,ФП Selfservice,selfservice,u_<cluster_prefix>_s_selfservice_an_<название команды>
+39,1,ФП SelfserviceLight,anselfservice,u_<cluster_prefix>_s_anselfservice_<название команды>
+40,2,Сервис ТС КАП Инструменты DataOps,sdsa,
+41,2,ФП Сервисные сообщения КАП(Event Broker),msservice,
+42,1,ФП Витрины данных Sberbank Process Mining,spm,u_<cluster_prefix>_s_spm_datatube_<реплика>
+43,2,ФП ТС Аналитика MIS,amis,u_ts_mis_avdata
+44,2,Супермаркет Данных,dda,
+45,2,Сервис Управления Сетевыми Взаимодействиями,fw,
+46,2,Единый сервис поставки данных,espd,
+47,1,Гетерогенный доступ - temp БД,qgtmp,u_<cluster_prefix>_s_qgtmp_buffer
+48,2,ТС Корректировки данных,corr,
