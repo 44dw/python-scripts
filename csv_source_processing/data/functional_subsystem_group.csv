@@ -1,177 +1,177 @@
-id,hdfs_group_id,access_group_prefix,fs_prefix,access_rights,group_template,has_role,tuz_name,access_type
-1,1,consumer,external,RO,external_<имя источника>,true
-2,2,owner,external,RW,external,true
-3,3,consumer,external,RO,xstream3ls,true
-4,4,consumer,internal,RO,internal_<имя реплики>_<схема>,true
-5,5,owner,internal,RW,internal,true
-6,6,consumer,internal,RO,3ls,true
-7,6,owner,internal,RW,pkd,true
-8,7,consumer,dwh,RO,dwh_<имя витрины>,true
-9,8,owner,dwh,RW,dwh,true
-10,9,consumer,dwh,RO,3ls,true
-11,10,consumer,ods,RO,ods_<имя источника>,true
-12,11,owner,ods,RW,ods,true
-13,12,consumer,ods,RO,3ls,true
-14,12,owner,ods,RW,pkd,true
-15,13,consumer,dzo,RO,dzo_<имя источника>,true
-16,14,owner,dzo,RW,dzo,true
-17,15,consumer,dzo,RO,xstream3ls,true
-18,15,owner,dzo,RW,pkd,true
-19,16,consumer,platform,RO,platform_<имя реплики>_dda,true
-20,17,owner,platform,RW,platform,true
-21,18,consumer,platform,RO,platform_3ls,true
-22,19,consumer,did,RO,did_<имя источника>,true
-23,20,owner,did,RW,did,true
-24,21,consumer,did,RO,3ls,true
-25,22,consumer,sql,RO,sql_<область>,true
-26,23,owner,sql,RW,sql,true
-27,24,consumer,sql,RO,3ls,true
-28,25,consumer,qa,RO,internal_<имя реплики>_<схема>,true
-29,25,owner,qa,RW,internal_qa,true
-30,27,owner,qa,RW,qa,true
-33,null,consumer,kibana,RO,kibana,false
-34,30,consumer,ess_bdm,RO,ess_bdm_<блок>_<имя витрины>,true
-35,31,owner,ess_bdm,RW,ess_bdm_<блок>,true
-36,32,consumer,ess_bdm,RO,3ls,true
-37,33,consumer,custom,RO,custom_<блок>_<имя витрины>_<область_optional>,true
-38,34,owner,custom,RW,custom_<блок>_<имя витрины>,true
-39,35,consumer,custom,RO,3ls_custom_<блок>_<имя витрины>,true
-40,36,consumer,common_graph,RO,common_graph_<имя_optional>,true
-41,36,owner,common_graph,RW,common_graph,true
-42,37,owner,sdsdh,RW,sdsdh_<блок>_<отдел>,true
-43,38,owner,sdsdh,RW,sdsdh_t_app,true
-44,null,owner,sdsdh,RW,sdsdh_user,false
-45,null,owner,sdsdh,RW,sdsdh_user,false
-48,39,consumer,team,RO,team_<блок>_<имя команды>,true
-49,39,owner,team,RW,team_<блок>_<имя команды>,true
-52,41,consumer,eskkd,RO,eskkd_infa,true
-53,41,owner,eskkd,RW,eskkd_infa,true
-54,42,consumer,rta,RO,rta_<реплика/витрина>,true
-55,42,owner,rta,RW,rta_<реплика/витрина>,true
-56,null,owner,rta,RW,rta_<приложение>,false
-57,43,consumer,app,RO,app_<имя фреймворка>_<область_optional>,true
-58,43,owner,app,RW,app_<имя фреймворка>_<область_optional>,true
-59,44,consumer,nrt,RO,nrt_<имя источника_optional>,true
-60,44,owner,nrt,RW,nrt_<имя источника_optional>,true
-63,null,owner,,RW,<имя приложения>_<имя роли в приложении>,false
-64,46,consumer,solr,RO,<имя источника>,true
-65,46,owner,solr,RW,<имя источника>,true
-66,46,owner,solr,RWA,<имя источника>,true
-67,47,consumer,solr,RO,<имя команды>_<наименование>,true
-68,47,owner,solr,RW,<имя команды>_<наименование>,true
-69,47,owner,solr,RWA,<имя команды>_<наименование>,true
-70,48,consumer,hbase,RO,<наименование объекта доступа>,false
-71,48,owner,hbase,RW,<наименование объекта доступа>,false
-72,48,owner,hbase,RWXCA,<наименование объекта доступа>,false
-73,null,consumer,jn,RO,jn_<cluster_prefix>_internal,false
-74,null,owner,jn,RWX,jn_<cluster_prefix>_internal,false
-75,null,owner,jn,RX,jn_<cluster_prefix>_internal,false
-76,null,consumer,grf,RO,grf_<cluster_prefix>_internal,false
-77,null,owner,grf,RW,grf_<cluster_prefix>_internal,false
-78,49,owner,sds,RW,sds_<блок>_<отдел>,true
-79,50,owner,sds,RW,sds_t_app,true
-80,null,owner,sds,RW,sds_user,false
-81,null,owner,sds,RW,sds_user,false
-82,51,consumer,graph,RO,graph_<имя>,true
-83,51,owner,graph,RW,graph,true
-86,53,consumer,qg,RO,qg_<КТС>_<область данных>_<схема>,true
-87,53,owner,qg,RW,qg_<КТС>_<область данных>_<схема>,true
-88,54,consumer,opt,RO,opt_internal_<имя реплики>_<схема>,true
-89,54,consumer,opt,RO,3ls,true
-90,55,owner,opt,RW,opt_internal,true
-91,56,owner,opt,RW,opt_internal,true
-92,56,consumer,opt,RO,3ls,true
-93,57,owner,opt,RW,opt_internal,true
-94,57,consumer,opt,RO,3ls,true
-95,null,consumer,grnplm,RO,grnplm_common,false
-96,58,owner,selfservice,RW,selfservice_an_<реплика>,true
-99,61,consumer,selfservice,RO,xstream4ls,true
-100,62,owner,selfservice,RW,selfservice_an,true
-101,63,owner,selfservice,RW,selfservice_devops,true
-102,64,consumer,selfservice,RO,selfservice_<реплика>,true
-103,65,owner,anselfservice,RW,anselfservice_<реплика>,true
-104,65,consumer,anselfservice,RO,anselfservice_<реплика>,true
-105,65,consumer,anselfservice,RO,anselfservice3ls_<реплика>,true
-106,65,consumer,anselfservice,RO,xstream4ls,true
-107,null,owner,sdsa,RW,sdsa_admin,false
-108,null,owner,sdsa,RW,sdsa_views_metadata_admin,false
-109,null,owner,sdsa,RW,sdsa_views_metadata_analyst,false
-110,null,owner,sdsa,RW,sdsa_replicas_metadata_admin,false
-111,null,owner,sdsa,RW,sdsa_replicas_metadata_analyst,false
-112,null,owner,sdsa,RW,sdsa_ds,false
-113,null,owner,sdsa,RW,sdsa_pkd_discrepancies_admin,false
-114,null,owner,sdsa,RW,sdsa_incident_manager,false
-115,null,owner,sdsa,RW,sdsa_views_tla_manager,false
-116,null,owner,sdsa,RW,sdsa_replicas_tla_manager,false
-117,null,owner,sdsa,RW,sdsa_tla_supervisor,false
-118,null,owner,sdsa,RW,sdsa_reports_analyst,false
-119,null,owner,sdsa,RW,sdsa_cm_analyst,false
-120,null,owner,sdsa,RW,sdsa_cm_admin,false
-121,null,owner,sdsa,RW,sdsa_cm_api_user,false
-122,null,consumer,bme,RO,bme_appusr,false
-123,null,consumer,bme,RO,bme_r_exec,false
-124,null,consumer,bme,RO,bme_r_adm,false
-125,null,consumer,bme,RO,bme_r_info,false
-126,null,consumer,bme,RO,bme_r_upload,false
-127,null,consumer,bme,RO,bme_r_download,false
-128,null,consumer,bme,RO,bme_r_publisher,false
-129,null,consumer,bme,RO,bme_r_subscriber,false
-130,null,consumer,bme,RO,bme_r_monadmin,false
-131,null,owner,sdsa,RW,sdsa_analytics_manager,false
-132,null,owner,sdsa,RW,sdsa_incident_analyst,false
-133,null,owner,sdsa,RW,sdsa_zno_analyst,false
-134,null,owner,sdsa,RW,sdsa_zno_manager,false
-135,null,owner,msservice,RW,msservice_consumer,false
-136,null,consumer,msservice,RO,msservice_producer,false
-137,66,consumer,spm,RO,spm_<реплика>,true
-138,67,owner,spm,RW,spm_<реплика>,true
-139,68,consumer,spm,RO,spm_3ls,true
-140,69,owner,spm,RW,spm,true
-141,70,owner,spm,RW,spm,true
-142,null,consumer,amis,RO,amis_avdata,false
-143,70,consumer,spm,RO,spm_3ls,true
-144,71,consumer,selfservice,RO,selfservice3ls_<реплика>,true
-145,72,owner,selfservice,RW,selfservice,true
-146,73,consumer,usl,RO,usl_tech_<краткий код data-продукта>,true
-147,74,consumer,usl,RO,usl_pers_<краткий код data-продукта>,true
-148,75,consumer,usl,RO,usl_ldm,true
-149,76,owner,usl,RW,usl_<краткий код data-продукта>,true
-150,77,owner,usl,RW,usl_ldm,true
-151,78,consumer,usl,RO,3ls_usl,true
-152,79,consumer,usl,RO,3ls_usl,true
-153,80,consumer,usl,RO,pkd,true
-154,81,consumer,selfservice,RO,selfservice_pkd,true
-155,null,owner,sdsa,RW,sdsa_sdpm_head,false
-156,null,owner,sdsa,RW,sdsa_sdpm_head_ahd,false
-157,null,owner,sdsa,RW,sdsa_sdpm_head_od,false
-158,null,owner,sdsa,RW,sdsa_sdpm_head_ld,false
-159,null,owner,sdsa,RW,sdsa_sdpm_manager,false
-160,82,consumer,custom,RO,custom_<блок>_<имя витрины>_<область_optional>_tfsout,true
-161,null,consumer,dda,RO,dda_users,false
-162,null,consumer,fw,RO,fw_admin,false
-163,null,consumer,fw,RO,fw_clusterman,false
-164,null,consumer,fw,RO,fw_hostman,false
-165,null,consumer,espd,RO,espd_appuser,false
-166,null,consumer,dda,RO,dda_subscr,false
-167,83,consumer,qgtmp,RO,qgtmp_buffer_client,true
-168,83,owner,qgtmp,RW,qgtmp_buffer,true
-169,83,consumer,qgtmp,RO,3ls_qgtmp_buffer,true
-170,null,consumer,corr,RO,corr_r_reader,false
-171,null,consumer,corr,RO,corr_r_exec,false
-172,null,consumer,corr,RO,corr_audit,false
-173,null,consumer,corr,RO,corr_fin_fso,false
-174,null,consumer,corr,RO,corr_risk_erm,false
-175,null,consumer,corr,RO,corr_cib_mntz,false
-176,84,consumer,custom,RO,custom_<блок>_<имя витрины>_owner,true
-177,85,consumer,custom,RO,custom_<блок>_<имя витрины>_<область_optional>_tscorr,true
-178,84,owner,custom,RW,custom_<блок>_<имя витрины>_<область_optional>_tscorr,true
-179,null,consumer,sdsa,RO,sdsa_tum_manager,false
-180,null,consumer,sdsa,RO,sdsa_tum_user_creator,false
-181,null,consumer,sdsa,RO,sdsa_om_admin,false
-182,null,consumer,sdsa,RO,sdsa_om_as_admin,false
-183,86,consumer,selfservice,RO,selfservice_owner_to_cedar,true
-184,87,owner,selfservice,RW,selfservice_pkd,true
-185,88,consumer,platform,RO,platform_<имя реплики>_r1,true
-186,89,consumer,platform,RO,platform_<имя реплики>_r2,true
-187,90,consumer,platform,RO,platform_<имя реплики>_r3,true
-188,91,owner,custom,RW,custom_<блок>_<имя витрины>_<область_optional>_eskkd,true
+id,fs_id,hdfs_group_id,access_group_prefix,access_rights,group_template,has_role,tuz_name,access_type,consumer_tuz_allowed
+1,1,1,consumer,RO,external_<имя источника>,true,u_<cluster_prefix>_s_external,TUZ_USER,true
+2,1,2,owner,RW,external,true,u_<cluster_prefix>_s_external,TUZ,false
+3,1,3,owner,RO,xstream3ls,true,,USER,false
+4,2,4,consumer,RO,internal_<имя реплики>_<схема>,true,u_<cluster_prefix>_s_internal,TUZ_USER,true
+5,2,5,owner,RW,internal,true,u_<cluster_prefix>_s_internal,TUZ,false
+6,2,6,owner,RO,3ls,true,,USER,false
+7,2,6,owner,RW,pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+8,3,7,consumer,RO,dwh_<имя витрины>,true,u_<cluster_prefix>_s_dwh_<имя витрины>,TUZ_USER,true
+9,3,8,owner,RW,dwh,true,u_<cluster_prefix>_s_dwh_<имя витрины>,TUZ,false
+10,3,9,owner,RO,3ls,true,,USER,false
+11,4,10,consumer,RO,ods_<имя источника>,true,u_<cluster_prefix>_s_ods_<имя источника>,TUZ_USER,true
+12,4,11,owner,RW,ods,true,u_<cluster_prefix>_s_ods_<имя источника>,TUZ,false
+13,4,12,owner,RO,3ls,true,,USER,false
+14,4,12,owner,RW,pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+15,5,13,consumer,RO,dzo_<имя источника>,true,u_<cluster_prefix>_s_dzo_<имя источника>,TUZ_USER,true
+16,5,14,owner,RW,dzo,true,u_<cluster_prefix>_s_dzo_<имя источника>,TUZ,false
+17,5,15,owner,RO,xstream3ls,true,,USER,false
+18,5,15,owner,RW,pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+19,6,16,consumer,RO,platform_<имя реплики>_dda,true,u_<cluster_prefix>_s_platform,TUZ_USER,true
+20,6,17,owner,RW,platform,true,u_<cluster_prefix>_s_platform,TUZ,false
+21,6,18,owner,RO,platform_3ls,true,,USER,false
+22,7,19,consumer,RO,did_<имя источника>,true,u_<cluster_prefix>_s_did_<имя источника>,TUZ_USER,true
+23,7,20,owner,RW,did,true,u_<cluster_prefix>_s_did_<имя источника>,TUZ,false
+24,7,21,owner,RO,3ls,true,,USER,false
+25,8,22,consumer,RO,sql_<область>,true,u_<cluster_prefix>_s_sql_<область>,TUZ_USER,true
+26,8,23,owner,RW,sql,true,u_<cluster_prefix>_s_sql_<область>,TUZ,false
+27,8,24,owner,RO,3ls,true,,USER,false
+28,9,25,consumer,RO,internal_<имя реплики>_<схема>,true,u_<cluster_prefix>_s_internal_dataqa,TUZ_USER,true
+29,9,25,owner,RW,internal_qa,true,u_<cluster_prefix>_s_internal_dataqa,TUZ,false
+30,9,27,owner,RW,qa,true,u_<cluster_prefix>_s_internal_dataqa,TUZ,false
+33,11,null,consumer,RO,kibana,false,,TUZ_USER,true
+34,12,30,consumer,RO,ess_bdm_<блок>_<имя витрины>,true,u_<cluster_prefix>_s_ess_bdm_<блок>_<имя витрины>,TUZ_USER,true
+35,12,31,owner,RW,ess_bdm_<блок>,true,u_<cluster_prefix>_s_ess_bdm_<блок>_<имя витрины>,TUZ,false
+36,12,32,owner,RO,3ls,true,,USER,false
+37,13,33,consumer,RO,custom_<блок>_<имя витрины>_<область_optional>,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ_USER,true
+38,13,34,owner,RW,custom_<блок>_<имя витрины>,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ,false
+39,13,35,owner,RO,3ls_custom_<блок>_<имя витрины>,true,,USER,false
+40,14,36,consumer,RO,common_graph_<имя_optional>,true,u_<cluster_prefix>_s_common,TUZ_USER,true
+41,14,36,owner,RW,common_graph,true,u_<cluster_prefix>_s_common,TUZ,false
+42,15,37,owner,RW,sdsdh_<блок>_<отдел>,true,u_<cluster_prefix>_s_sdsdh,TUZ,false
+43,15,38,owner,RW,sdsdh_t_app,true,u_<cluster_prefix>_s_sdsdh,TUZ,false
+44,16,null,owner,RW,sdsdh_user,false,,TUZ,true
+45,16,null,owner,RW,sdsdh_user,false,,TUZ,true
+48,18,39,consumer,RO,team_<блок>_<имя команды>,true,,TUZ_USER,true
+49,18,39,owner,RW,team_<блок>_<имя команды>,true,,TUZ,true
+52,20,41,consumer,RO,eskkd_infa,true,,TUZ_USER,true
+53,20,41,owner,RW,eskkd_infa,true,,TUZ,true
+54,21,42,consumer,RO,rta_<реплика/витрина>,true,,TUZ_USER,true
+55,21,42,owner,RW,rta_<реплика/витрина>,true,,TUZ,true
+56,22,null,owner,RW,rta_<приложение>,false,,TUZ,true
+57,23,43,consumer,RO,app_<имя фреймворка>_<область_optional>,true,,TUZ_USER,true
+58,23,43,owner,RW,app_<имя фреймворка>_<область_optional>,true,,TUZ,true
+59,24,44,consumer,RO,nrt_<имя источника_optional>,true,,TUZ_USER,true
+60,24,44,owner,RW,nrt_<имя источника_optional>,true,,TUZ,true
+63,26,null,owner,RW,<имя приложения>_<имя роли в приложении>,false,,TUZ,true
+64,27,46,consumer,RO,<имя источника>,true,,TUZ_USER,true
+65,27,46,owner,RW,<имя источника>,true,,TUZ,true
+66,27,46,consumer,RWA,<имя источника>,true,,TUZ,true
+67,27,47,consumer,RO,<имя команды>_<наименование>,true,,TUZ_USER,true
+68,27,47,owner,RW,<имя команды>_<наименование>,true,,TUZ,true
+69,27,47,consumer,RWA,<имя команды>_<наименование>,true,,TUZ,true
+70,28,48,consumer,RO,<наименование объекта доступа>,false,,TUZ_USER,true
+71,28,48,owner,RW,<наименование объекта доступа>,false,,TUZ,true
+72,28,48,consumer,RWXCA,<наименование объекта доступа>,false,,TUZ,true
+73,29,null,consumer,RO,jn_<cluster_prefix>_internal,false,,TUZ_USER,true
+74,29,null,consumer,RWX,jn_<cluster_prefix>_internal,false,,TUZ,true
+75,29,null,consumer,RX,jn_<cluster_prefix>_internal,false,,TUZ,true
+76,30,null,consumer,RO,grf_<cluster_prefix>_internal,false,,TUZ_USER,true
+77,30,null,owner,RW,grf_<cluster_prefix>_internal,false,,TUZ,true
+78,31,49,owner,RW,sds_<блок>_<отдел>,true,u_<cluster_prefix>_s_sds,TUZ,false
+79,31,50,owner,RW,sds_t_app,true,u_<cluster_prefix>_s_sds,TUZ,false
+80,32,null,owner,RW,sds_user,false,,TUZ,true
+81,32,null,owner,RW,sds_user,false,,TUZ,true
+82,33,51,consumer,RO,graph_<имя>,true,u_<cluster_prefix>_s_graph,TUZ_USER,true
+83,33,51,owner,RW,graph,true,u_<cluster_prefix>_s_graph,TUZ,false
+86,35,53,consumer,RO,qg_<КТС>_<область данных>_<схема>,true,,TUZ_USER,true
+87,35,53,owner,RW,qg_<КТС>_<область данных>_<схема>,true,,TUZ,true
+88,36,54,consumer,RO,opt_internal_<имя реплики>_<схема>,true,u_<cluster_prefix>_s_opt_t_internal,TUZ_USER,true
+89,36,54,owner,RO,3ls,true,,USER,false
+90,36,55,owner,RW,opt_internal,true,u_<cluster_prefix>_s_opt_t_internal,TUZ,false
+91,36,56,owner,RW,opt_internal,true,u_<cluster_prefix>_s_opt_t_internal,TUZ,false
+92,36,56,owner,RO,3ls,true,,USER,false
+93,36,57,owner,RW,opt_internal,true,u_<cluster_prefix>_s_opt_t_internal,TUZ,false
+94,36,57,owner,RO,3ls,true,,USER,false
+95,37,null,consumer,RO,grnplm_common,false,,TUZ_USER,true
+96,38,58,owner,RW,selfservice_an_<реплика>,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ,false
+99,38,61,owner,RO,xstream4ls,true,,USER,false
+100,38,62,owner,RW,selfservice_an,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ,false
+101,38,63,owner,RW,selfservice_devops,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ,false
+102,38,64,consumer,RO,selfservice_<реплика>,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ_USER,true
+103,39,65,owner,RW,anselfservice_<реплика>,true,u_<cluster_prefix>_s_anselfservice_<название команды>,TUZ,false
+104,39,65,consumer,RO,anselfservice_<реплика>,true,u_<cluster_prefix>_s_anselfservice_<название команды>,TUZ_USER,true
+105,39,65,owner,RO,anselfservice3ls_<реплика>,true,,USER,false
+106,39,65,owner,RO,xstream4ls,true,,USER,false
+107,40,null,owner,RW,sdsa_admin,false,,TUZ,true
+108,40,null,owner,RW,sdsa_views_metadata_admin,false,,TUZ,true
+109,40,null,owner,RW,sdsa_views_metadata_analyst,false,,TUZ,true
+110,40,null,owner,RW,sdsa_replicas_metadata_admin,false,,TUZ,true
+111,40,null,owner,RW,sdsa_replicas_metadata_analyst,false,,TUZ,true
+112,40,null,owner,RW,sdsa_ds,false,,TUZ,true
+113,40,null,owner,RW,sdsa_pkd_discrepancies_admin,false,u_<cluster_prefix>_s_internal_qa,TUZ,true
+114,40,null,owner,RW,sdsa_incident_manager,false,,TUZ,true
+115,40,null,owner,RW,sdsa_views_tla_manager,false,,TUZ,true
+116,40,null,owner,RW,sdsa_replicas_tla_manager,false,,TUZ,true
+117,40,null,owner,RW,sdsa_tla_supervisor,false,,TUZ,true
+118,40,null,owner,RW,sdsa_reports_analyst,false,,TUZ,true
+119,40,null,owner,RW,sdsa_cm_analyst,false,,TUZ,true
+120,40,null,owner,RW,sdsa_cm_admin,false,,TUZ,true
+121,40,null,owner,RW,sdsa_cm_api_user,false,,TUZ,true
+122,17,null,consumer,RO,bme_appusr,false,,TUZ_USER,true
+123,17,null,consumer,RO,bme_r_exec,false,,TUZ_USER,true
+124,17,null,consumer,RO,bme_r_adm,false,,TUZ_USER,true
+125,17,null,consumer,RO,bme_r_info,false,,TUZ_USER,true
+126,17,null,consumer,RO,bme_r_upload,false,,TUZ_USER,true
+127,17,null,consumer,RO,bme_r_download,false,,TUZ_USER,true
+128,17,null,consumer,RO,bme_r_publisher,false,,TUZ_USER,true
+129,17,null,consumer,RO,bme_r_subscriber,false,,TUZ_USER,true
+130,17,null,consumer,RO,bme_r_monadmin,false,,TUZ_USER,true
+131,40,null,owner,RW,sdsa_analytics_manager,false,,TUZ,true
+132,40,null,owner,RW,sdsa_incident_analyst,false,,TUZ,true
+133,40,null,owner,RW,sdsa_zno_analyst,false,,TUZ,true
+134,40,null,owner,RW,sdsa_zno_manager,false,,TUZ,true
+135,41,null,owner,RW,msservice_consumer,false,,TUZ,true
+136,41,null,consumer,RO,msservice_producer,false,,TUZ_USER,true
+137,42,66,consumer,RO,spm_<реплика>,true,u_<cluster_prefix>_s_spm_datatube_<реплика>,TUZ_USER,true
+138,42,67,owner,RW,spm_<реплика>,true,u_<cluster_prefix>_s_spm_datatube_<реплика>,TUZ,false
+139,42,68,owner,RO,spm_3ls,true,,USER,false
+140,42,69,owner,RW,spm,true,u_<cluster_prefix>_s_spm_datatube_<реплика>,TUZ,false
+141,42,70,owner,RW,spm,true,u_<cluster_prefix>_s_spm_datatube_<реплика>,TUZ,false
+142,43,null,consumer,RO,amis_avdata,false,u_ts_mis_avdata,TUZ_USER,true
+143,42,70,owner,RO,spm_3ls,true,,USER,false
+144,38,71,owner,RO,selfservice3ls_<реплика>,true,,USER,false
+145,38,72,owner,RW,selfservice,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ,false
+146,34,73,consumer,RO,usl_tech_<краткий код data-продукта>,true,u_<cluster_prefix>_s_usl_t_ndl,TUZ_USER,true
+147,34,74,consumer,RO,usl_pers_<краткий код data-продукта>,true,u_<cluster_prefix>_s_usl_t_ndl,TUZ_USER,true
+148,34,75,consumer,RO,usl_ldm,true,u_<cluster_prefix>_s_usl_t_ndl,TUZ_USER,true
+149,34,76,owner,RW,usl_<краткий код data-продукта>,true,u_<cluster_prefix>_s_usl_t_ndl,TUZ,false
+150,34,77,owner,RW,usl_ldm,true,u_<cluster_prefix>_s_usl_t_ndl,TUZ,false
+151,34,78,owner,RO,3ls_usl,true,,USER,false
+152,34,79,owner,RO,3ls_usl,true,,USER,false
+153,34,80,owner,RO,pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+154,38,81,owner,RO,selfservice_pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+155,40,null,owner,RW,sdsa_sdpm_head,false,,TUZ,true
+156,40,null,owner,RW,sdsa_sdpm_head_ahd,false,,TUZ,true
+157,40,null,owner,RW,sdsa_sdpm_head_od,false,,TUZ,true
+158,40,null,owner,RW,sdsa_sdpm_head_ld,false,,TUZ,true
+159,40,null,owner,RW,sdsa_sdpm_manager,false,,TUZ,true
+160,13,82,consumer,RO,custom_<блок>_<имя витрины>_<область_optional>_tfsout,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ_USER,true
+161,44,null,consumer,RO,dda_users,false,,TUZ_USER,true
+162,45,null,consumer,RO,fw_admin,false,,TUZ_USER,true
+163,45,null,consumer,RO,fw_clusterman,false,,TUZ_USER,true
+164,45,null,consumer,RO,fw_hostman,false,,TUZ_USER,true
+165,46,null,consumer,RO,espd_appuser,false,,TUZ_USER,true
+166,44,null,consumer,RO,dda_subscr,false,,TUZ_USER,true
+167,47,83,consumer,RO,qgtmp_buffer_client,true,u_<cluster_prefix>_s_qgtmp_buffer,TUZ_USER,true
+168,47,83,owner,RW,qgtmp_buffer,true,u_<cluster_prefix>_s_qgtmp_buffer,TUZ,false
+169,47,83,owner,RO,3ls_qgtmp_buffer,true,,USER,false
+170,48,null,consumer,RO,corr_r_reader,false,,TUZ_USER,true
+171,48,null,consumer,RO,corr_r_exec,false,,TUZ_USER,true
+172,48,null,consumer,RO,corr_audit,false,,TUZ_USER,true
+173,48,null,consumer,RO,corr_fin_fso,false,,TUZ_USER,true
+174,48,null,consumer,RO,corr_risk_erm,false,,TUZ_USER,true
+175,48,null,consumer,RO,corr_cib_mntz,false,,TUZ_USER,true
+176,13,84,consumer,RO,custom_<блок>_<имя витрины>_owner,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ_USER,true
+177,13,85,consumer,RO,custom_<блок>_<имя витрины>_<область_optional>_tscorr,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ_USER,true
+178,13,84,owner,RW,custom_<блок>_<имя витрины>_<область_optional>_tscorr,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ,false
+179,40,null,consumer,RO,sdsa_tum_manager,false,,TUZ_USER,true
+180,40,null,consumer,RO,sdsa_tum_user_creator,false,,TUZ_USER,true
+181,40,null,consumer,RO,sdsa_om_admin,false,,TUZ_USER,true
+182,40,null,consumer,RO,sdsa_om_as_admin,false,,TUZ_USER,true
+183,38,86,consumer,RO,selfservice_owner_to_cedar,true,u_<cluster_prefix>_s_selfservice_an_<название команды>,TUZ_USER,true
+184,38,87,owner,RW,selfservice_pkd,true,u_<cluster_prefix>_s_internal_qa,TUZ,false
+185,6,88,consumer,RO,platform_<имя реплики>_r1,true,u_<cluster_prefix>_s_platform,TUZ_USER,true
+186,6,89,consumer,RO,platform_<имя реплики>_r2,true,u_<cluster_prefix>_s_platform,TUZ_USER,true
+187,6,90,consumer,RO,platform_<имя реплики>_r3,true,u_<cluster_prefix>_s_platform,TUZ_USER,true
+188,13,91,owner,RW,custom_<блок>_<имя витрины>_<область_optional>_eskkd,true,u_<cluster_prefix>_s_custom_<блок>_<имя витрины>,TUZ,false
